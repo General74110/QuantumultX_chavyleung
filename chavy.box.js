@@ -42,9 +42,9 @@ $.json = $.name // `接口`类请求的响应体
 $.html = $.name // `页面`类请求的响应体
 
 // 页面源码地址
-$.web = `https://cdn.jsdelivr.net/gh/chavyleung/scripts@${$.version}/box/chavy.boxjs.html?_=${new Date().getTime()}`
+$.web = `https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/switcher/box.switcher.js?_=${new Date().getTime()}`
 // 版本说明地址 (Release Note)
-$.ver = 'https://gitee.com/chavyleung/scripts/raw/master/box/release/box.release.tf.json'
+$.ver = 'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/release/box.release.tf.json'
 
 !(async () => {
   // 勿扰模式
@@ -313,10 +313,10 @@ function getSystemApps() {
         { id: '@chavy_boxjs_userCfgs.color_dark_primary', name: '暗黑色调', canvas: true, val: '#2196F3', type: 'colorpicker', desc: '' }
       ],
       author: '@chavyleung',
-      repo: 'https://github.com/chavyleung/scripts/blob/master/box/switcher/box.switcher.js',
+      repo: 'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/switcher/box.switcher.js',
       icons: [
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSetting.mini.png', 
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSetting.png'
+        'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/icons/BoxSetting.mini.png', 
+        'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/icons/BoxSetting.png'
       ]
     },
     {
@@ -326,12 +326,12 @@ function getSystemApps() {
       keys: [],
       settings: [{ id: 'CFG_BoxSwitcher_isSilent', name: '静默运行', val: false, type: 'boolean', desc: '切换会话时不发出系统通知!' }],
       author: '@chavyleung',
-      repo: 'https://github.com/chavyleung/scripts/blob/master/box/switcher/box.switcher.js',
+      repo: 'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/switcher/box.switcher.js',
       icons: [
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSwitcher.mini.png', 
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSwitcher.png'
+        'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/icons/BoxSwitcher.mini.png', 
+        'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/icons/BoxSwitcher.png'
       ],
-      script: 'https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js'
+      script: 'https://raw.githubusercontent.com/General74110/QuantumultX_chavyleung/master/box/switcher/box.switcher.js'
     }
   ]
   return sysapps
